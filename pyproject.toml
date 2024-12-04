@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "init-project"
+version = "0.1.0"
+description = ""
+authors = ["Rhuan Fernandes <rhuanfernandes@biofy.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+alembic = "^1.14.0"
+sqlmodel = "^0.0.22"
+pydantic = "^2.10.3"
+pydantic-settings = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
